@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="customPickerStyle"/>
+    <attr format="boolean" name="expansion_openOnlyOne"/>
+    <attr format="enum" name="inputType">
+        <enum name="text" value="0"/>
+        <enum name="number" value="1"/>
+    </attr>
+    <attr format="color" name="rv_backgroundColor"/>
+    <attr format="color" name="rv_backgroundPressColor"/>
+    <attr format="dimension" name="rv_cornerRadius"/>
+    <attr format="dimension" name="rv_cornerRadius_BL"/>
+    <attr format="dimension" name="rv_cornerRadius_BR"/>
+    <attr format="dimension" name="rv_cornerRadius_TL"/>
+    <attr format="dimension" name="rv_cornerRadius_TR"/>
+    <attr format="boolean" name="rv_isRadiusHalfHeight"/>
+    <attr format="boolean" name="rv_isRippleEnable"/>
+    <attr format="boolean" name="rv_isWidthHeightEqual"/>
+    <attr format="color" name="rv_strokeColor"/>
+    <attr format="color" name="rv_strokePressColor"/>
+    <attr format="dimension" name="rv_strokeWidth"/>
+    <attr format="color" name="rv_textPressColor"/>
+
+    <declare-styleable name="BirthdayInput"><attr format="color" name="ldp_text_color"/><attr format="color" name="ldp_hint_color"/><attr name="ldp_date_format">
+        <flag name="mm-dd-yyyy" value="1"/>
+        <flag name="dd-mm-yyyy" value="2"/>
+    </attr></declare-styleable>
+    <declare-styleable name="CalendarView"><attr format="color" name="titleColor"/><attr format="reference" name="titleLayout"/><attr format="color" name="weekColor"/><attr format="color|reference" name="weekBackground"/><attr format="color|reference" name="monthBackground"/><attr format="color" name="dateDividerColor"/><attr format="dimension" name="dateDividerSize"/><attr format="reference" name="imgLastMonth"/><attr format="reference" name="imgNextMonth"/><attr format="string" name="monthValue"/><attr name="language">
+        <enum name="china" value="1"/>
+        <enum name="english" value="2"/>
+        <enum name="vi" value="3"/>
+    </attr></declare-styleable>
+    <declare-styleable name="CircularImageView"><attr format="boolean" name="border"/><attr format="color" name="border_color"/><attr format="dimension" name="border_width"/><attr format="boolean" name="selector"/><attr format="color" name="selector_color"/><attr format="color" name="selector_stroke_color"/><attr format="dimension" name="selector_stroke_width"/><attr format="boolean" name="shadow"/><attr format="float" name="civ_shadowRadius"/><attr format="float" name="civ_shadowDx"/><attr format="float" name="civ_shadowDy"/><attr format="color" name="civ_shadowColor"/></declare-styleable>
+    <declare-styleable name="CurrencyEditText"><attr format="integer" name="TextAlignment"/></declare-styleable>
+    <declare-styleable name="CustomButton"><attr format="color" name="cb_backgroundColor"/><attr format="integer" name="cb_radius"/><attr format="color" name="cb_strokeColor"/><attr format="integer" name="cb_strokeWidth"/><attr format="integer" name="cb_strokeDashWidth"/><attr format="integer" name="cb_strokeDashGap"/></declare-styleable>
+    <declare-styleable name="CustomCircularImageViewTheme"><attr format="reference" name="circularImageViewStyle"/></declare-styleable>
+    <declare-styleable name="CustomProgressBar"><attr format="color" name="foreground_color"/></declare-styleable>
+    <declare-styleable name="CustomTabButton"><attr format="boolean" name="full_width"/><attr format="dimension" name="tab_width"/></declare-styleable>
+    <declare-styleable name="DateRangeMonthView"><attr format="color" name="title_color"/><attr format="color" name="week_color"/><attr format="color" name="range_color"/><attr format="color" name="selected_date_circle_color"/><attr format="color" name="selected_date_color"/><attr format="color" name="default_date_color"/><attr format="color" name="range_date_color"/><attr format="color" name="disable_date_color"/><attr format="dimension" name="text_size_title"/><attr format="dimension" name="text_size_week"/><attr format="dimension" name="text_size_date"/><attr format="integer" name="header_bg"/><attr format="string" name="calendar_tag"/><attr format="integer" name="week_offset"/><attr format="boolean" name="editable"/><attr format="boolean" name="swipeable"/><attr format="boolean" name="show_header"/></declare-styleable>
+    <declare-styleable name="ExpansionHeader"><attr format="reference" name="expansion_layout"/><attr format="boolean" name="expansion_toggleOnClick"/><attr format="reference" name="expansion_headerIndicator"/><attr format="integer" name="expansion_headerIndicatorRotationExpanded"/><attr format="integer" name="expansion_headerIndicatorRotationCollapsed"/></declare-styleable>
+    <declare-styleable name="ExpansionLayout"><attr format="boolean" name="expansion_expanded"/></declare-styleable>
+    <declare-styleable name="ExpansionsViewGroupConstraintLayout"><attr name="expansion_openOnlyOne"/></declare-styleable>
+    <declare-styleable name="ExpansionsViewGroupFrameLayout"><attr name="expansion_openOnlyOne"/></declare-styleable>
+    <declare-styleable name="ExpansionsViewGroupLinearLayout"><attr name="expansion_openOnlyOne"/></declare-styleable>
+    <declare-styleable name="ExpansionsViewGroupRelativeLayout"><attr name="expansion_openOnlyOne"/></declare-styleable>
+    <declare-styleable name="GraphViewXML"><attr format="string" name="seriesData"/><attr format="string" name="seriesType"/><attr format="string" name="seriesTitle"/><attr name="android:title"/><attr format="color" name="seriesColor"/></declare-styleable>
+    <declare-styleable name="ImageCropView"><attr format="dimension" name="gridInnerStroke"/><attr format="color" name="gridInnerColor"/><attr format="integer" name="setInnerGridMode">
+        <enum name="off" value="0"/>
+        <enum name="on" value="1"/>
+    </attr><attr format="dimension" name="gridOuterStroke"/><attr format="color" name="gridOuterColor"/><attr format="integer" name="setOuterGridMode">
+        <enum name="off" value="0"/>
+        <enum name="on" value="1"/>
+    </attr><attr format="dimension" name="gridLeftRightMargin"/><attr format="dimension" name="gridTopBottomMargin"/></declare-styleable>
+    <declare-styleable name="MKLoader"><attr format="color" name="mk_color"/><attr name="mk_type">
+        <enum name="ClassicSpinner" value="0"/>
+        <enum name="FishSpinner" value="1"/>
+        <enum name="LineSpinner" value="2"/>
+    </attr></declare-styleable>
+    <declare-styleable name="MyCustomPicker"><attr format="dimension" name="cp_width"/><attr format="dimension" name="cp_height"/><attr format="boolean" name="cp_accessibilityDescriptionEnabled"/><attr format="reference" name="cp_divider"/><attr format="color" name="cp_dividerColor"/><attr format="dimension" name="cp_dividerDistance"/><attr format="dimension" name="cp_dividerThickness"/><attr format="boolean" name="cp_fadingEdgeEnabled"/><attr format="float" name="cp_fadingEdgeStrength"/><attr format="string" name="cp_formatter"/><attr format="boolean" name="cp_hideWheelUntilFocused"/><attr format="float" name="cp_lineSpacingMultiplier"/><attr format="integer" name="cp_max"/><attr format="integer" name="cp_maxFlingVelocityCoefficient"/><attr format="integer" name="cp_min"/><attr format="enum" name="cp_order">
+        <enum name="ascending" value="0"/>
+        <enum name="descending" value="1"/>
+    </attr><attr format="enum" name="cp_orientation">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr><attr format="boolean" name="cp_scrollerEnabled"/><attr format="enum" name="cp_selectedTextAlign">
+        <enum name="selectedTextAlignRight" value="0"/>
+        <enum name="selectedTextAlignCenter" value="1"/>
+        <enum name="selectedTextAlignLeft" value="2"/>
+    </attr><attr format="color" name="cp_selectedTextColor"/><attr format="dimension" name="cp_selectedTextSize"/><attr format="boolean" name="cp_selectedTextStrikeThru"/><attr format="boolean" name="cp_selectedTextUnderline"/><attr format="string" name="cp_selectedTypeface"/><attr format="enum" name="cp_textAlign">
+        <enum name="textAlignRight" value="0"/>
+        <enum name="textAlignCenter" value="1"/>
+        <enum name="textAlignLeft" value="2"/>
+    </attr><attr format="color" name="cp_textColor"/><attr format="dimension" name="cp_textSize"/><attr format="boolean" name="cp_textStrikeThru"/><attr format="boolean" name="cp_textUnderline"/><attr format="string" name="cp_typeface"/><attr format="integer" name="cp_value"/><attr format="integer" name="cp_wheelItemCount"/><attr format="boolean" name="cp_wrapSelectorWheel"/></declare-styleable>
+    <declare-styleable name="Pinview"><attr format="reference" name="pinBackground"/><attr format="integer" name="pinLength"/><attr format="dimension" name="pinWidth"/><attr format="dimension" name="pinHeight"/><attr format="dimension" name="splitWidth"/><attr format="boolean" name="cursorVisible"/><attr format="boolean" name="password"/><attr format="boolean" name="forceKeyboard"/><attr format="string" name="hint"/><attr name="inputType"/><attr format="dimension" name="textSize"/></declare-styleable>
+    <declare-styleable name="ProgressWheel"><attr format="boolean" name="matProg_progressIndeterminate"/><attr format="color" name="matProg_barColor"/><attr format="color" name="matProg_rimColor"/><attr format="dimension" name="matProg_rimWidth"/><attr format="float" name="matProg_spinSpeed"/><attr format="integer" name="matProg_barSpinCycleTime"/><attr format="dimension" name="matProg_circleRadius"/><attr format="boolean" name="matProg_fillRadius"/><attr format="dimension" name="matProg_barWidth"/><attr format="boolean" name="matProg_linearProgress"/></declare-styleable>
+    <declare-styleable name="PtrClassicHeader"><attr format="integer" name="ptr_rotate_ani_time"/></declare-styleable>
+    <declare-styleable name="PtrFrameLayout"><attr format="reference" name="ptr_header"/><attr format="reference" name="ptr_content"/><attr format="float" name="ptr_resistance"/><attr format="float" name="ptr_ratio_of_header_height_to_refresh"/><attr format="integer" name="ptr_duration_to_close"/><attr format="integer" name="ptr_duration_to_close_header"/><attr format="boolean" name="ptr_pull_to_fresh"/><attr format="boolean" name="ptr_keep_header_when_refresh"/></declare-styleable>
+    <declare-styleable name="Rotate3dAnimation"><attr format="enum" name="rollType">
+        <enum name="x" value="0"/>
+        <enum name="y" value="1"/>
+        <enum name="z" value="2"/>
+    </attr><attr format="float" name="fromDeg"/><attr format="float" name="toDeg"/><attr format="fraction" name="pivotX"/><attr format="fraction" name="pivotY"/></declare-styleable>
+    <declare-styleable name="RoundFrameLayout"><attr name="rv_backgroundColor"/><attr name="rv_backgroundPressColor"/><attr name="rv_cornerRadius"/><attr name="rv_strokeWidth"/><attr name="rv_strokeColor"/><attr name="rv_strokePressColor"/><attr name="rv_isRadiusHalfHeight"/><attr name="rv_isWidthHeightEqual"/><attr name="rv_cornerRadius_TL"/><attr name="rv_cornerRadius_TR"/><attr name="rv_cornerRadius_BL"/><attr name="rv_cornerRadius_BR"/><attr name="rv_isRippleEnable"/></declare-styleable>
+    <declare-styleable name="RoundLinearLayout"><attr name="rv_backgroundColor"/><attr name="rv_backgroundPressColor"/><attr name="rv_cornerRadius"/><attr name="rv_strokeWidth"/><attr name="rv_strokeColor"/><attr name="rv_strokePressColor"/><attr name="rv_isRadiusHalfHeight"/><attr name="rv_isWidthHeightEqual"/><attr name="rv_cornerRadius_TL"/><attr name="rv_cornerRadius_TR"/><attr name="rv_cornerRadius_BL"/><attr name="rv_cornerRadius_BR"/><attr name="rv_isRippleEnable"/></declare-styleable>
+    <declare-styleable name="RoundRelativeLayout"><attr name="rv_backgroundColor"/><attr name="rv_backgroundPressColor"/><attr name="rv_cornerRadius"/><attr name="rv_strokeWidth"/><attr name="rv_strokeColor"/><attr name="rv_strokePressColor"/><attr name="rv_isRadiusHalfHeight"/><attr name="rv_isWidthHeightEqual"/><attr name="rv_cornerRadius_TL"/><attr name="rv_cornerRadius_TR"/><attr name="rv_cornerRadius_BL"/><attr name="rv_cornerRadius_BR"/><attr name="rv_isRippleEnable"/></declare-styleable>
+    <declare-styleable name="RoundTextView"><attr name="rv_backgroundColor"/><attr name="rv_backgroundPressColor"/><attr name="rv_cornerRadius"/><attr name="rv_strokeWidth"/><attr name="rv_strokeColor"/><attr name="rv_strokePressColor"/><attr name="rv_textPressColor"/><attr name="rv_isRadiusHalfHeight"/><attr name="rv_isWidthHeightEqual"/><attr name="rv_cornerRadius_TL"/><attr name="rv_cornerRadius_TR"/><attr name="rv_cornerRadius_BL"/><attr name="rv_cornerRadius_BR"/><attr name="rv_isRippleEnable"/></declare-styleable>
+    <declare-styleable name="SlideMenuLayout"><attr format="enum" name="slideMode">
+        <enum name="left" value="1001"/>
+        <enum name="right" value="1002"/>
+        <enum name="both" value="1003"/>
+        <enum name="none" value="1004"/>
+    </attr><attr format="dimension" name="slidePadding"/><attr format="integer" name="slideTime"/><attr format="boolean" name="parallax"/><attr format="float" name="contentAlpha"/><attr format="color" name="contentShadowColor"/><attr format="boolean" name="contentToggle"/><attr format="boolean" name="allowDragging"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="dimension" name="itemSize"/><attr format="float" name="itemScale"/><attr format="color" name="itemSelectedTint"/><attr format="color" name="itemTint"/><attr format="dimension" name="delimiterSize"/><attr format="reference" name="itemIcon"/></declare-styleable>
+
+</resources>

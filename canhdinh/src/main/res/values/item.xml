@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pinview_cursor_bg" type="color">#ff464646</item>
+    <item name="pinview_cursor_bg_gradient_end" type="color">#9C27B0</item>
+    <item name="pinview_cursor_bg_gradient_start" type="color">#2196F3</item>
+    <item name="pinview_item_bg_solid" type="color">#FFF</item>
+    <item name="pinview_item_bg_solid_disable" type="color">#aaa</item>
+    <item name="pinview_item_bg_solid_selected" type="color">#FFFF00</item>
+    <item name="pinview_item_bg_stroke" type="color">#FF0000</item>
+
+    <item name="btn_last_month" type="id"/>
+    <item name="btn_next_month" type="id"/>
+    <item name="tv_day_of_month" type="id"/>
+    <item name="tv_title" type="id"/>
+    
+</resources>
